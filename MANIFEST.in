@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include chatbot *.css
+recursive-include chatbot *.csv
+recursive-include chatbot *.html
+recursive-include chatbot *.ico
+recursive-include chatbot *.js
+recursive-include chatbot *.json
+recursive-include chatbot *.md
+recursive-include chatbot *.png
+recursive-include chatbot *.py
+recursive-include chatbot *.svg
+recursive-include chatbot *.txt
+recursive-exclude chatbot *.pyc
