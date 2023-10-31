@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-13 12:31:30.157886",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "chat_bot_rule",
+  "enabled",
+  "notification"
+ ],
+ "fields": [
+  {
+   "fieldname": "chat_bot_rule",
+   "fieldtype": "Link",
+   "label": "Chat Bot Rule",
+   "options": "Chat Bot Rule"
+  },
+  {
+   "default": "0",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled"
+  },
+  {
+   "fetch_from": "chat_bot_rule.notification",
+   "fieldname": "notification",
+   "fieldtype": "Link",
+   "label": "Notification",
+   "options": "Notification"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-14 10:17:39.229258",
+ "modified_by": "Administrator",
+ "module": "Chatbot",
+ "name": "Chat Bot Trigger",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
